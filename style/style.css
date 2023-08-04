@@ -1,0 +1,60 @@
+body {
+    background-color: #fffaff;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+    padding: 5px;
+    border: #0A2463;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.header-title {
+    color: #0A2463;
+    font-size: 2em;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.main-img {
+    width: 80%;
+}
+
+.main-title {
+    color: #0A2463;
+    font-size: 1.5em;
+}
+
+p {
+    color: #3e92cc;
+    font-size: .8em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color:#3e92cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#0A2463;
+    text-decoration: underline;
+}
+
+.sports-quiz, .website {
+    color:#0A2463
+}
+
+.sports-quiz:hover, .website:hover {
+    color: #3e92cc;
+}
+
+.email-link, .linked-in-link {
+    padding: 5px;
+}
