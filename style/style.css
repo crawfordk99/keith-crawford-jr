@@ -15,11 +15,11 @@ body {
 }
 
 .header-img {
-    width: 100%;
+    width: 80%;
 }
 
 .main-img {
-    width: 80%;
+    width: 60%;
 }
 
 .main-title {
@@ -68,10 +68,10 @@ a:hover {
     }
 
     .header-img {
-        width: 400px
+        width: 350px
     }
 
     .main-img {
-        width: 350px;
+        width: 300px;
     }
 }
