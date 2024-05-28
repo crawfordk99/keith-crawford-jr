@@ -27,6 +27,11 @@ body {
     font-size: 1.5em;
 }
 
+#my-projects {
+    display: grid;
+    grid-template-columns: auto;
+}
+
 p {
     color: #3e92cc;
     font-size: .8em;
@@ -42,6 +47,7 @@ footer {
 a {
     color:#3e92cc;
     text-decoration: none;
+    display: grid;
 }
 
 a:hover {
@@ -49,12 +55,39 @@ a:hover {
     text-decoration: underline;
 }
 
-.sports-quiz, .website {
+.sports-quiz, .website, .basketball-stats {
     color:#0A2463
 }
 
-.sports-quiz:hover, .website:hover {
+.sports-quiz:hover, .website:hover, .basketball-stats:hover {
     color: #3e92cc;
+}
+
+.sports-quiz {
+    grid-column: 1/2;
+}
+
+.sports-p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.website {
+    grid-column: 2/3;
+}
+
+.website-p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.basketball-stats {
+    grid-column: 3/4;
+}
+
+.basketball-p {
+    grid-column: 3/4;
+    grid-row: 2/3;
 }
 
 .email-link, .linked-in-link, .github-link {
